@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Picture Puzzle</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="imgbase.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body onload="initPage()">
+		<div id="main">
+			<div id="content">
+				<canvas id="canv" onmousedown="mouseDown(event)" onmouseup="mouseUp()" onmousemove="mouseMove(event)"></canvas>
+			</div>
+			<div id="footer">
+				<div id="label">
+					<table width="100%" height="100%">
+						<tr><td id="info">
+							<p id="time">00:00</p>
+							<p id="imgAuthor" class="imgData">Author</p>
+							<p id="imgName" class="imgData">Picture Name</p>
+						</td></tr>
+					</table>
+				</div>
+				<img id="next" src="ui/next-up.png" onmousedown="nextDown()" onmouseup="nextUp()" onclick="loadPuzzle()">
+			</div>
+		</div>
+	</body>
+</html>

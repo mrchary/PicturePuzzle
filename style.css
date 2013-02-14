@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+}
+#main {
+	background: #333333;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#content {
+	background: #888888;
+	position: absolute;
+	width: 92%;
+	height: 87%;
+	left: 4%;
+	top: 3%;
+}
+#footer {
+	background: #EEEEEE;
+	position: absolute;
+	width: 100%;
+	height: 7%;
+	top: 93%;
+}
+#canv {
+	background: #333333;
+	position: absolute;
+}
+#label {
+	background: #FFFFFF;
+	position: absolute;
+	border: 1px solid #333333;
+	height: 70%;
+	width: 30%;
+	top: 15%;
+	left: 35%;
+}
+#info {
+	text-align: center;
+}
+#time {
+	margin: 0;
+	color: #111111;
+	font: bold 150% sans-serif;
+}
+.imgData {
+	display: none;
+	margin: 0;
+	color: #111111;
+}
+#imgAuthor {
+	font-size: 90%;
+}
+#imgName {
+	font-size: 110%;
+}
+#next {
+	position: absolute;
+	right: 50px;
+	cursor: pointer;
+}
